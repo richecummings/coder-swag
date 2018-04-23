@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9035EFDF208E579200373357 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035EFDE208E579200373357 /* ProductCell.swift */; };
 		9035EFE1208E589600373357 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035EFE0208E589600373357 /* Product.swift */; };
+		9035EFE3208E5BD500373357 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035EFE2208E5BD500373357 /* ProductsVC.swift */; };
 		90C8C37D208AA04A006E343E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8C37C208AA04A006E343E /* AppDelegate.swift */; };
 		90C8C37F208AA04A006E343E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8C37E208AA04A006E343E /* CategoriesVC.swift */; };
 		90C8C382208AA04A006E343E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C8C380208AA04A006E343E /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		9035EFDE208E579200373357 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		9035EFE0208E589600373357 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9035EFE2208E5BD500373357 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		90C8C379208AA04A006E343E /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C8C37C208AA04A006E343E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90C8C37E208AA04A006E343E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				90C8C37E208AA04A006E343E /* CategoriesVC.swift */,
+				9035EFE2208E5BD500373357 /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9035EFE3208E5BD500373357 /* ProductsVC.swift in Sources */,
 				90C8C37F208AA04A006E343E /* CategoriesVC.swift in Sources */,
 				90C8C37D208AA04A006E343E /* AppDelegate.swift in Sources */,
 				90C8C392208AA598006E343E /* CategoryCell.swift in Sources */,
