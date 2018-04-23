@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9035EFDF208E579200373357 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035EFDE208E579200373357 /* ProductCell.swift */; };
 		90C8C37D208AA04A006E343E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8C37C208AA04A006E343E /* AppDelegate.swift */; };
 		90C8C37F208AA04A006E343E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8C37E208AA04A006E343E /* CategoriesVC.swift */; };
 		90C8C382208AA04A006E343E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C8C380208AA04A006E343E /* Main.storyboard */; };
 		90C8C384208AA04C006E343E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C8C383208AA04C006E343E /* Assets.xcassets */; };
 		90C8C387208AA04C006E343E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C8C385208AA04C006E343E /* LaunchScreen.storyboard */; };
 		90C8C392208AA598006E343E /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8C391208AA598006E343E /* CategoryCell.swift */; };
+		90C8C394208AA737006E343E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8C393208AA737006E343E /* Category.swift */; };
+		90C8C397208AA8B6006E343E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8C396208AA8B6006E343E /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9035EFDE208E579200373357 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		90C8C379208AA04A006E343E /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C8C37C208AA04A006E343E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90C8C37E208AA04A006E343E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		90C8C386208AA04C006E343E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90C8C388208AA04C006E343E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90C8C391208AA598006E343E /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		90C8C393208AA737006E343E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		90C8C396208AA8B6006E343E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		90C8C37B208AA04A006E343E /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				90C8C395208AA8AA006E343E /* Services */,
 				90C8C390208AA532006E343E /* View */,
 				90C8C38F208AA528006E343E /* Model */,
 				90C8C38E208AA522006E343E /* Controller */,
@@ -79,6 +86,7 @@
 		90C8C38F208AA528006E343E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				90C8C393208AA737006E343E /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,8 +95,17 @@
 			isa = PBXGroup;
 			children = (
 				90C8C391208AA598006E343E /* CategoryCell.swift */,
+				9035EFDE208E579200373357 /* ProductCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		90C8C395208AA8AA006E343E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				90C8C396208AA8B6006E343E /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +182,9 @@
 				90C8C37F208AA04A006E343E /* CategoriesVC.swift in Sources */,
 				90C8C37D208AA04A006E343E /* AppDelegate.swift in Sources */,
 				90C8C392208AA598006E343E /* CategoryCell.swift in Sources */,
+				9035EFDF208E579200373357 /* ProductCell.swift in Sources */,
+				90C8C394208AA737006E343E /* Category.swift in Sources */,
+				90C8C397208AA8B6006E343E /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
